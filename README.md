@@ -1,2 +1,9 @@
 # PLC-moteur_deux_sens_de_rotation
-Dans cet exercice, nous allons faire un programme Ladder, en utilisant le PLC(programmable logic controller). Dans beaucoup d'industries on utilise le PLC pour automatiser certaines tâches de routine et gagner en productivité. Le moteur à deux sens de rotation est énormément utilisés dans les industries. exemple: convoyeurs, robots, élévateurs.
+Dans cet exercice, nous allons faire un programme Ladder, en utilisant le PLC (programmable logic controller). Dans beaucoup d'industries on utilise le PLC pour automatiser certaines tâches de routine et gagner en productivité. Les moteurs à deux sens de rotation sont énormément utilisés dans les industries. Exemple: convoyeurs, robots, élévateurs, grues.
+La programmation a révolutionné beaucoup de secteurs, et cette révolution a eu une première répercussion dans toutes les industries. 
+Aujourd'hui il suffit tout simplement d'avoir un microcontrôleur et quelques relais pour commander des circuits importants et exécuter des tâches qui prendraient du temps à être exécutés par l'humain. Le PLC supprime le circuit de commande, et ne retient que les actionneurs (boutons poussoirs, relais,…). Le circuit de puissance qui est plus simplifié est directement commandé par ces relais qui reçoivent les commandes du PLC. Alors, de ce fait l’encombrement sera très simplifié, voire même supprimé dans les installations en industries.
+
+Pourquoi le ladder ?
+
+Le ladder c'est le langage souvent utilisés par les électriciens et c'est très facile dans la compréhension du fonctionnement global d'une installation électrique automatisée. Avec les contacts qui sont virtuels mais, quand-même visibles dans le programme. Ce qui parle beaucoup plus aux électriciens et ingénieurs et leur permet de bien gérer le fonctionnement anormal.
+Dans certains programmes où il faut utiliser la puissance de l’héritage, ou du polymorphisme pour simplifier le code, Le langage Ladder n’est plus d’une grande aide à cause de ses limites dans ce sens. Certains langages de programmation sont alors beaucoup plus sophistiqués, le cas de Python, C++ utilisés aussi pour les microcontrôleurs. 
